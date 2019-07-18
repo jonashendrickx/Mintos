@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <None Remove="appsettings.json" />
+    <None Remove="Dump\1 - Structure\20190717212800_add_tables_loans_and_loan_originators_and_loan_originator_branches.sql" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,6 +26,10 @@
     <Content Include="appsettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Dump\1 - Structure\20190717212800_add_tables_loans_and_loan_originators_and_loan_originator_branches.sql" />
   </ItemGroup>
 
 </Project>
