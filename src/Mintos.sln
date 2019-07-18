@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mintos.Models", "Mintos.Models\Mintos.Models.csproj", "{B8E5A854-E298-4EC1-A26D-0FFC1425C47F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mintos.DataContext", "Mintos.DataContext\Mintos.DataContext.csproj", "{9D9E7306-4DD2-4700-9306-BE02B027BC6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mintos.DatabaseInitializer", "Mintos.DatabaseInitializer\Mintos.DatabaseInitializer.csproj", "{EFD8CCF3-266C-429F-A41C-51260684D134}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8E5A854-E298-4EC1-A26D-0FFC1425C47F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E5A854-E298-4EC1-A26D-0FFC1425C47F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E5A854-E298-4EC1-A26D-0FFC1425C47F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E5A854-E298-4EC1-A26D-0FFC1425C47F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D9E7306-4DD2-4700-9306-BE02B027BC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D9E7306-4DD2-4700-9306-BE02B027BC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D9E7306-4DD2-4700-9306-BE02B027BC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D9E7306-4DD2-4700-9306-BE02B027BC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD8CCF3-266C-429F-A41C-51260684D134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD8CCF3-266C-429F-A41C-51260684D134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD8CCF3-266C-429F-A41C-51260684D134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD8CCF3-266C-429F-A41C-51260684D134}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F67EAC5-AFA4-4704-AD5F-22316D7AF987}
+	EndGlobalSection
+EndGlobal
