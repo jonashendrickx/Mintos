@@ -26,10 +26,13 @@ namespace Mintos.DatabaseInitializer
                 .SqlDatabase(connectionString)
                 .WithTransaction()
                 .WithSortedScriptsEmbeddedInAssembly(Assembly.GetExecutingAssembly())
+                .WithReadOnlyJournal("dbo", "schema_versions")
                 .LogToConsole()
                 .Build();
 
-            return upgrader.PerformUpgrade();
+            var result = upgrader.PerformUpgrade();
+
+            return result;
         }
 
         private static void DisplayResult(DatabaseUpgradeResult result)
