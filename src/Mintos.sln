@@ -9,7 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mintos.DataContext", "Minto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mintos.DatabaseInitializer", "Mintos.DatabaseInitializer\Mintos.DatabaseInitializer.csproj", "{EFD8CCF3-266C-429F-A41C-51260684D134}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mintos.Infrastructure", "Mintos.Infrastructure\Mintos.Infrastructure.csproj", "{719C980A-6849-4085-BC93-D7F923CE4415}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mintos.Infrastructure", "Mintos.Infrastructure\Mintos.Infrastructure.csproj", "{719C980A-6849-4085-BC93-D7F923CE4415}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mintos.Plugins", "Mintos.Plugins\Mintos.Plugins.csproj", "{87E52497-978E-4C65-90B2-CC9DA8A6A9A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mintos.Plugins.Tests", "Mintos.Plugins.Tests\Mintos.Plugins.Tests.csproj", "{43418B73-C51F-4807-AD31-BAE341C3753C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mintos", "Mintos\Mintos.csproj", "{16E2AE91-8A4E-4922-A255-E8ED1D3C89CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{C93AB7F7-6798-4E8F-A0E5-B55688B8B84F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +41,26 @@ Global
 		{719C980A-6849-4085-BC93-D7F923CE4415}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{719C980A-6849-4085-BC93-D7F923CE4415}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{719C980A-6849-4085-BC93-D7F923CE4415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E52497-978E-4C65-90B2-CC9DA8A6A9A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E52497-978E-4C65-90B2-CC9DA8A6A9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E52497-978E-4C65-90B2-CC9DA8A6A9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E52497-978E-4C65-90B2-CC9DA8A6A9A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43418B73-C51F-4807-AD31-BAE341C3753C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43418B73-C51F-4807-AD31-BAE341C3753C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43418B73-C51F-4807-AD31-BAE341C3753C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43418B73-C51F-4807-AD31-BAE341C3753C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E2AE91-8A4E-4922-A255-E8ED1D3C89CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E2AE91-8A4E-4922-A255-E8ED1D3C89CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E2AE91-8A4E-4922-A255-E8ED1D3C89CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E2AE91-8A4E-4922-A255-E8ED1D3C89CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87E52497-978E-4C65-90B2-CC9DA8A6A9A8} = {C93AB7F7-6798-4E8F-A0E5-B55688B8B84F}
+		{43418B73-C51F-4807-AD31-BAE341C3753C} = {C93AB7F7-6798-4E8F-A0E5-B55688B8B84F}
+		{16E2AE91-8A4E-4922-A255-E8ED1D3C89CC} = {C93AB7F7-6798-4E8F-A0E5-B55688B8B84F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F67EAC5-AFA4-4704-AD5F-22316D7AF987}
